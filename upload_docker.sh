@@ -5,7 +5,6 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
 dockerpath=mansooorjain89/deploying_ml_application
 
 # Step 2:  
