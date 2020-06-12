@@ -1,4 +1,4 @@
-er) $ ./run_kubernetes.sh
+$ ./run_kubernetes.sh
 kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
 deployment.apps/predict-app created
 NAME                           READY   STATUS              RESTARTS   AGE
@@ -9,15 +9,15 @@ Handling connection for 8000
 Handling connection for 8000
 
 
-er) $ kubectl get pods
+$ kubectl get pods
 NAME                           READY   STATUS    RESTARTS   AGE
 predict-app-659ccbf4f6-pz69w   1/1     Running   0          20
 
 
-(ma $ ./make_prediction.sh
+$ ./make_prediction.sh
 Port: 8000
 {
   "prediction": [
     20.35373177134412
   ]
-}m
+}
